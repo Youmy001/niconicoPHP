@@ -1,0 +1,29 @@
+{
+    "name": "youmy001/niconicoPHP",
+	"description": "The most complete nicovideo API for PHP inspired by OpenNiconico2",
+	"authors": [
+		{
+			"name": "Tommy Teasdale",
+			"email": "tteasdaleroads@gmail.com"
+		}
+	],
+	"support": {
+		"source": "https://github.com/Youmy001/niconicoPHP"
+	},
+	"require": {
+        "guzzlehttp/guzzle": "^6.2",
+		"endroid/twitter": "^1.2",
+		"phpmailer/phpmailer": "^5.2",
+        "fguillot/picofeed": "@stable",
+        "simplon/twitter": "^0.2.4"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "^5.6"
+	},
+	"autoload": {
+		"psr-4": {
+			"NiconicoPHP\\": "src/"
+		}
+	},
+	"license": "MIT"
+}
